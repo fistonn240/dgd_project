@@ -1,0 +1,5 @@
+{
+  "name": "AgriSmart Africa",
+  "description": "An AI-powered platform for African farmers providing crop disease diagnosis, weather insights, and market price tracking.",
+  "requestFramePermissions": ["camera"]
+}

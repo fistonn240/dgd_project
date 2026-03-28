@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-agri-green: #2D5A27;
+  --color-agri-earth: #8B4513;
+  --color-agri-sun: #FFD700;
+  --color-agri-sky: #87CEEB;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-stone-50 text-stone-900;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.agri-gradient {
+  background: linear-gradient(135deg, #2D5A27 0%, #4A7c44 100%);
+}
